@@ -6,7 +6,7 @@
     justify-content: center;
     align-items: center;
     margin: 0 auto;
-    background-color: #f0f0f0; /* Optional: Add a background color */
+    background-color: #1e1e1e; /* Dark-ish background color */; 
   }
   
   .video, .image {

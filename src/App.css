@@ -1,33 +1,36 @@
 body {
   font-family: Arial, sans-serif;
   margin: 20px;
+  background-color: #1e1e1e; /* Dark-ish background color */
+  color: #e0e0e0; /* Light gray text color for contrast */
 }
 
-h1 {
-  text-align: center;
+h1, h2, h3, p {
+  color: #e0e0e0; /* Light gray text color for headings and paragraphs */
 }
 
 .description {
-  max-height: 50px; /* Adjust the height as needed */
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
   text-align: center;
   margin-top: 20px;
   margin-bottom: 10px;
 }
 
-h2.description {
+.description h2 {
   font-size: 18px; /* Adjust the size as needed */
-  text-align: center;
-  margin-top: 20px;
-  margin-bottom: 10px;
+}
+
+.description p {
+  font-size: 16px; /* Adjust the size as needed */
+  margin: 5px 0; /* Adjust the margin as needed */
 }
 
 .imageViewer {
   display: flex;
   justify-content: center;
   margin-top: 10px;
+  background-color: #2e2e2e; /* Slightly lighter dark background for the image viewer */
+  padding: 20px;
+  border-radius: 10px;
 }
 
 .navigationControls {
@@ -40,6 +43,14 @@ h2.description {
   margin: 0 10px;
   padding: 10px;
   font-size: 16px;
+  background-color: #3e3e3e; /* Dark background for buttons */
+  color: #e0e0e0; /* Light gray text color */
+  border: none;
+  border-radius: 5px;
+}
+
+.navigationControls button:hover, .navigationControls input:hover {
+  background-color: #4e4e4e; /* Slightly lighter on hover */
 }
 
 video, img {
