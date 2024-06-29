@@ -8,3 +8,4 @@ Right now, everything is in a one-line description that is written to the page a
     "view": "PLX"
   },
 
+Update images that do not open/play
