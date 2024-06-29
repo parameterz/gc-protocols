@@ -58,3 +58,14 @@ video, img {
   max-width: 100%;
   height: auto;
 }
+
+.build-info {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 12px;
+  color: #a0a0a0; /* Light gray text color for build info */
+  background-color: #1e1e1e; /* Match the background color */
+  padding: 5px 0;
+}

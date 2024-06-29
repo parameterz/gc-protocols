@@ -68,7 +68,10 @@ function App() {
           />
         </div>
       )}
-    </div>
+      <footer className="build-info">
+        Build Version: {process.env.REACT_APP_BUILD_VERSION} | Build Date: {process.env.REACT_APP_BUILD_DATE}
+      </footer>
+      </div>
   );
 }
 
