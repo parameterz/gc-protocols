@@ -1,0 +1,48 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.description {
+  max-height: 50px; /* Adjust the height as needed */
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+h2.description {
+  font-size: 18px; /* Adjust the size as needed */
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.imageViewer {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.navigationControls {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.navigationControls button, .navigationControls input {
+  margin: 0 10px;
+  padding: 10px;
+  font-size: 16px;
+}
+
+video, img {
+  max-width: 100%;
+  height: auto;
+}

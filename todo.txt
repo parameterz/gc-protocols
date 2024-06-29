@@ -1,0 +1,10 @@
+Rewrite the protocols.json objects to be more exlicit:
+Right now, everything is in a one-line description that is written to the page as an h2 element and it is too big.
+
+{
+    "title": "LV Increased Depth",
+    "details": "2D (clip)",
+    "filename": "PLX-CL-DEEP-2D.mp4",
+    "view": "PLX"
+  },
+

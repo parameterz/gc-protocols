@@ -1,0 +1,16 @@
+.stage {
+    width: 100%;
+    max-width: 800px; /* Adjust the max width as needed */
+    height: 450px; /* Adjust the height as needed */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    background-color: #f0f0f0; /* Optional: Add a background color */
+  }
+  
+  .video, .image {
+    max-width: 100%;
+    max-height: 100%;
+  }
+  
