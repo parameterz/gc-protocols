@@ -2,12 +2,16 @@ import React, { useState, useEffect } from 'react';
 import ProtocolSelector from './components/ProtocolSelector';
 import ImageViewer from './components/ImageViewer';
 import NavigationControls from './components/NavigationControls';
+import { getConfig } from './utils/getConfig';
 import './App.css';
 
 function App() {
   const [protocols, setProtocols] = useState([]);
   const [currentProtocol, setCurrentProtocol] = useState([]);
   const [currentIndex, setCurrentIndex] = useState(0);
+
+  // Load configuration
+  const config = getConfig();
 
   useEffect(() => {
     fetch('/protocols/protocolList.json')
@@ -69,7 +73,8 @@ function App() {
         </div>
       )}
       <footer className="build-info">
-        Build Version: {process.env.REACT_APP_BUILD_VERSION} | Build Date: {process.env.REACT_APP_BUILD_DATE}
+      Build Version: {config.buildVersion} | Build Date: {config.buildDate}  
+      <p>{config.author}</p>
       </footer>
       </div>
   );
