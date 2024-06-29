@@ -11,7 +11,9 @@ function NavigationControls({ currentIndex, total, onPrevious, onNext, onSkip })
       <button onClick={onPrevious}>Previous</button>
       <span>{currentIndex + 1} / {total}</span>
       <button onClick={onNext}>Next</button>
-      <input type="number" placeholder="Clip #" onChange={handleSkip} />
+      <div>
+        <input type="number" placeholder="Clip #" onChange={handleSkip} />
+      </div>
     </div>
   );
 }

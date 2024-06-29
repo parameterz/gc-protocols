@@ -29,14 +29,15 @@ h1, h2, h3, p {
   justify-content: center;
   margin-top: 10px;
   background-color: #2e2e2e; /* Slightly lighter dark background for the image viewer */
-  padding: 20px;
+  padding: 10px;
   border-radius: 10px;
 }
 
 .navigationControls {
   display: flex;
-  justify-content: center;
+  justify-content: center; /* Center the controls */
   margin-top: 20px;
+  text-align: center; /* Ensure text is centered */
 }
 
 .navigationControls button, .navigationControls input {

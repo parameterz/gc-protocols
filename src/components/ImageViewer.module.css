@@ -1,7 +1,7 @@
 .stage {
     width: 100%;
     max-width: 800px; /* Adjust the max width as needed */
-    height: 450px; /* Adjust the height as needed */
+    height: 400px; /* Adjust the height as needed */
     display: flex;
     justify-content: center;
     align-items: center;
